@@ -1,6 +1,8 @@
 # siemens-logo-rest
 Trying to make sense of the Siemens LOGO sort-of built-in REST API. Maybe, someday, I'll write a wrapper for it.
 
+**WARNING** this seems to work up until Logo 8.3. I've been using Modbus since writing this documentation, leaving this open for historical reasons.
+
 # Getting a shared secret to authenticate with the LOGO
 
 1. Enable the web server on the LOGO through LOGOComfort. Put a password there, I wasn't able to get it working without.
